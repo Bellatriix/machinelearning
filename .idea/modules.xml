@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/pyStudy.iml" filepath="$PROJECT_DIR$/pyStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/machinelearning.iml" filepath="$PROJECT_DIR$/machinelearning.iml" />
     </modules>
   </component>
 </project>
