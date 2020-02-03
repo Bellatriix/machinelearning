@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b531ed1b-749f-45b3-9783-26f59a9c1679" name="Default Changelist" comment="dateKnn">
-      <change afterPath="$PROJECT_DIR$/KNN/datingTestSet.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machinelearning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="b531ed1b-749f-45b3-9783-26f59a9c1679" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KNN/dateKnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/KNN/dateKnn.py" afterDir="false" />
     </list>
@@ -52,6 +48,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="getData" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="machinelearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pneumonia" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pneumonia/getData.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="movieKnn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="machinelearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,6 +93,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.dateKnn" />
+        <item itemvalue="Python.getData" />
         <item itemvalue="Python.movieKnn" />
       </list>
     </recent_temporary>
@@ -91,6 +109,14 @@
       <option name="presentableId" value="Default" />
       <updated>1580649029286</updated>
     </task>
+    <task id="LOCAL-00001" summary="dateKnn">
+      <created>1580652256938</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580652256938</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -99,37 +125,37 @@
     <option name="LAST_COMMIT_MESSAGE" value="dateKnn" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="598" y="101" key="CommitChangelistDialog2" timestamp="1580652229930">
+    <state x="598" y="101" key="CommitChangelistDialog2" timestamp="1580720071757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="598" y="101" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580652229930" />
+    <state x="598" y="101" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580720071757" />
     <state x="184" y="92" key="DiffContextDialog" timestamp="1580652174148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="92" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580652174148" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1580652245971">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1580720071809">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580652245971" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1580652245971">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580720071809" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1580720071809">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580652245971" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1580652245970">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580720071809" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1580720071809">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580652245970" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1580652245971">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580720071809" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1580720071809">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580652245971" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1580649084399">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580720071809" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1580652267882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580649084399" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1580649039588">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580652267882" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1580710816242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580649039588" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580710816242" />
   </component>
 </project>
