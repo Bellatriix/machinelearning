@@ -14,52 +14,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.lines as mlines
 from matplotlib.font_manager import FontProperties
-
-'''
-@Desc : 'KNN algorithm classify'
-@Parameters : 
-    inX - test set
-    dataSet - train set
-    labels - label of train set
-    k - KNN algorithm's parameter, select the first k points
-@Returns : 
-    sotredClassCount[0][0] - result of classify
-@Time : 2020/1/31
-'''
-def classifyKNN(inX, dataSet, labels, k):
-    #KNN本质为计算测试集与训练集各个点之间的欧氏距离，故用矩阵进行同时计算以减少计算量
-    #获取训练集的行数。shape可以得到矩阵的行列数，不写[]返回行列数(rows,cols)，0返回行数
-    dataSetSize = dataSet.shape[0]
-
-    #将测试集复制，行数为训练集的行数，列数为1，复制后减去训练集
-    #tile函数可以按行列(x,y)进行复制
-    diffMat = np.tile(inX, (dataSetSize, 1)) - dataSet
-
-    #将减去后的数据平方计算
-    sqDiffMat = diffMat ** 2
-
-    #平方后的数据按行求和
-    sqDistances = sqDiffMat.sum(axis=1)
-
-    #求和后的数据开方
-    distances = sqDistances ** 0.5
-
-    #返回从小到大排列的索引值
-    sortedDistIndices = distances.argsort()
-
-    #记录类别次数的字典
-    classCount = {}
-    for i in range(k):
-        #获取元素类别
-        votelabel = labels[sortedDistIndices[i]]
-        #计算次数。dict.get(key,default)，返回指定键的值，若该值不存在则返回默认值
-        classCount[votelabel] = classCount.get(votelabel, 0) + 1
-
-    #获取字典中，值最大所对应的标签
-    #classCount = sorted(classCount.items(),key=lambda kv:(kv[1],kv[0]))
-    #print(max(classCount, key=classCount.get))
-
-    return max(classCount, key=classCount.get)
+from KNN.KNNalgorithm import KNN
 
 '''
 @Desc : '打开并解析数据文件datingTestSet.txt，前三列分别代表飞行里程，娱乐耗时百分比，每周冰淇淋消耗公升数量'
@@ -211,7 +166,7 @@ def datingClassTest(filename):
 
     for i in range(numTestVecs):
         #前numTestVecs作为测试集，后 m-numTestVesc 作为训练集
-        classifierResult = classifyKNN(normalDataSet[i, :], normalDataSet[numTestVecs:m, :], classLabelVector[numTestVecs:m], 10)
+        classifierResult = KNN.classifyKNN(normalDataSet[i, :], normalDataSet[numTestVecs:m, :], classLabelVector[numTestVecs:m], 10)
 
         #print("分类结果:%d\t真实类别:%d" % (classifierResult, classLabelVector[i]))
         if classifierResult != classLabelVector[i]:
@@ -247,7 +202,7 @@ def classifyPerson():
     normInX = (inX - minVals) / ranges
 
     #返回分类结果
-    classifyResult = classifyKNN(normInX, normMat, datingLabels, 3)
+    classifyResult = KNN.classifyKNN(normInX, normMat, datingLabels, 3)
 
     #结果映射
     resultList = ['讨厌', '有些喜欢', '非常喜欢']
