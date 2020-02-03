@@ -116,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580652256938</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="dateKnn">
+      <created>1580720093765</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580720093765</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -125,37 +132,45 @@
     <option name="LAST_COMMIT_MESSAGE" value="dateKnn" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="598" y="101" key="CommitChangelistDialog2" timestamp="1580720071757">
+    <state x="598" y="101" key="CommitChangelistDialog2" timestamp="1580720093200">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="598" y="101" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580720071757" />
+    <state x="598" y="101" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580720093200" />
     <state x="184" y="92" key="DiffContextDialog" timestamp="1580652174148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="92" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580652174148" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1580720071809">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1580724656077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580720071809" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1580720071809">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580724656077" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1580724656077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580720071809" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1580720071809">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580724656077" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1580724656077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580720071809" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1580720071809">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580724656077" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1580724656077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580720071809" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1580652267882">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580724656077" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1580720101867">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580652267882" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580720101867" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1580710816242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580710816242" />
+    <state x="524" y="256" width="872" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1580723487290">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="524" y="256" width="872" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1580723487290" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580722941753">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580722941753" />
   </component>
 </project>

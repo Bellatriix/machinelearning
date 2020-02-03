@@ -10,9 +10,56 @@
 '''
 
 import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.lines as mlines
 from matplotlib.font_manager import FontProperties
+
+'''
+@Desc : 'KNN algorithm classify'
+@Parameters : 
+    inX - test set
+    dataSet - train set
+    labels - label of train set
+    k - KNN algorithm's parameter, select the first k points
+@Returns : 
+    sotredClassCount[0][0] - result of classify
+@Time : 2020/1/31
+'''
+def classifyKNN(inX, dataSet, labels, k):
+    #KNN本质为计算测试集与训练集各个点之间的欧氏距离，故用矩阵进行同时计算以减少计算量
+    #获取训练集的行数。shape可以得到矩阵的行列数，不写[]返回行列数(rows,cols)，0返回行数
+    dataSetSize = dataSet.shape[0]
+
+    #将测试集复制，行数为训练集的行数，列数为1，复制后减去训练集
+    #tile函数可以按行列(x,y)进行复制
+    diffMat = np.tile(inX, (dataSetSize, 1)) - dataSet
+
+    #将减去后的数据平方计算
+    sqDiffMat = diffMat ** 2
+
+    #平方后的数据按行求和
+    sqDistances = sqDiffMat.sum(axis=1)
+
+    #求和后的数据开方
+    distances = sqDistances ** 0.5
+
+    #返回从小到大排列的索引值
+    sortedDistIndices = distances.argsort()
+
+    #记录类别次数的字典
+    classCount = {}
+    for i in range(k):
+        #获取元素类别
+        votelabel = labels[sortedDistIndices[i]]
+        #计算次数。dict.get(key,default)，返回指定键的值，若该值不存在则返回默认值
+        classCount[votelabel] = classCount.get(votelabel, 0) + 1
+
+    #获取字典中，值最大所对应的标签
+    #classCount = sorted(classCount.items(),key=lambda kv:(kv[1],kv[0]))
+    #print(max(classCount, key=classCount.get))
+
+    return max(classCount, key=classCount.get)
 
 '''
 @Desc : '打开并解析数据文件datingTestSet.txt，前三列分别代表飞行里程，娱乐耗时百分比，每周冰淇淋消耗公升数量'
@@ -113,7 +160,104 @@ def showdatas(datingDataMat, datingLabels):
     #显示图片
     plt.show()
 
+'''
+@Desc : '样本数据进行归一化'
+@Parameter : 
+    'dataSet' - '特征矩阵'
+@Returns :
+    'normalDataSet' - '归一化后的特征矩阵'
+    'ranges' - '数据范围'
+    'minVals' - '最小值'
+@Time : '2020/02/02'
+'''
+def autoNorm(dataSet):
+    #归一值 = (x-min) / (max - min)
+    #min()返回所有元素最小值，min(0)返回每一列最小值，min(1)返回每行最小值
+    minVals = dataSet.min(0)
+    maxVals = dataSet.max(0)
+
+    #最大值和最小值的范围
+    ranges = maxVals - minVals
+
+    #获取dataset行数
+    m = dataSet.shape[0]
+
+    #原始值减去最小值
+    normalDataSet = dataSet - np.tile(minVals, (m,1))
+    #除 max-min 得到归一值
+    normalDataSet = normalDataSet / np.tile(ranges, (m,1))
+
+    return normalDataSet,ranges,minVals
+
+'''
+@Desc : '分类器测试函数'
+@Parameter : 
+    'filename' - '文件路径'
+@Returns :
+    'errorRate' - '错误率'
+@Time : '2020/02/03'
+'''
+def datingClassTest(filename):
+    returnMat, classLabelVector = file2matrix(filename)
+
+    normalDataSet, ranges, minVals = autoNorm(returnMat)
+
+    #数据的百分之十，个数
+    testRatio = 0.10
+    m = normalDataSet.shape[0]
+    numTestVecs = int(m * testRatio)
+    #错误个数
+    errorCount = 0
+
+    for i in range(numTestVecs):
+        #前numTestVecs作为测试集，后 m-numTestVesc 作为训练集
+        classifierResult = classifyKNN(normalDataSet[i, :], normalDataSet[numTestVecs:m, :], classLabelVector[numTestVecs:m], 10)
+
+        #print("分类结果:%d\t真实类别:%d" % (classifierResult, classLabelVector[i]))
+        if classifierResult != classLabelVector[i]:
+            errorCount += 1
+
+    #错误率
+    errorRate = float(errorCount/numTestVecs) * 100
+    #print("错误率:%f%%" %(errorRate))
+    return errorRate
+
+'''
+@Desc : '测试例子'
+@Parameter : '无'
+@Returns : '测试结果'
+@Time : '2020/02/03'
+'''
+def classifyPerson():
+    #三项特征输入
+    ffMiles = float(input("每年飞行里程数："))
+    precentTats = float(input("玩游戏消耗时间占比："))
+    iceCream = float(input("每周消耗冰淇淋公升数："))
+
+    filename = './datingTestSet.txt'
+
+    #处理训练数据
+    datingDataMat, datingLabels = file2matrix(filename)
+    #训练数据归一化
+    normMat, ranges, minVals = autoNorm(datingDataMat)
+
+    #生成测试集
+    inX = np.array([ffMiles, precentTats, iceCream])
+    #测试集归一化
+    normInX = (inX - minVals) / ranges
+
+    #返回分类结果
+    classifyResult = classifyKNN(normInX, normMat, datingLabels, 3)
+
+    #结果映射
+    resultList = ['讨厌', '有些喜欢', '非常喜欢']
+
+    print("你可能%s这个人" % (resultList[classifyResult - 1]))
+
 if __name__ == '__main__':
     filename = './datingTestSet.txt'
-    returnMat, classLabelVector = file2matrix(filename)
-    showdatas(returnMat, classLabelVector)
+    #returnMat, classLabelVector = file2matrix(filename)
+    #showdatas(returnMat, classLabelVector)
+    #normalDataSet, ranges, minVals = autoNorm(returnMat)
+    #datingClassTest(filename)
+    classifyPerson()
