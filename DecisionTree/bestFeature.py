@@ -37,7 +37,7 @@ def createDataSet():
                [2, 1, 0, 1, 'yes'],
                [2, 1, 0, 2, 'yes'],
                [2, 0, 0, 0, 'no']]
-    labels = ['不放贷', '放贷']
+    labels = ['年龄', '有工作', '有自己的房子', '信贷情况']
 
     return dataSet, labels
 
@@ -75,22 +75,31 @@ def calcShannonEnt(dataSet):
 @Returns :
     'splitList' - '划分后的list，元素为每组数据的list'
 '''
-def splitDataSet(dataSet, column):
-    #将数据集转为dataframe
-    dataFrameSet = pd.DataFrame(dataSet)
-    #获取列的唯一值列表
-    indexList = dataFrameSet[column].value_counts().index
-    #返回的划分列表
-    splitList = []
+def splitDataSet(dataSet, column, value = None):
+    if value is None:
+        #将数据集转为dataframe
+        dataFrameSet = pd.DataFrame(dataSet)
+        #获取列的唯一值列表
+        indexList = dataFrameSet[column].value_counts().index
+        #返回的划分列表
+        splitList = []
 
-    for i in indexList:
-        group = dataFrameSet[dataFrameSet[column].isin([i])]
-        #dataframe变为list，需要先用numpy变为ndarray，再变为list
-        groupList = np.array(group).tolist()
+        for i in indexList:
+            group = dataFrameSet[dataFrameSet[column].isin([i])]
+            #dataframe变为list，需要先用numpy变为ndarray，再变为list
+            groupList = np.array(group).tolist()
 
-        splitList.append(groupList)
+            splitList.append(groupList)
 
-    return splitList
+        return splitList
+    else:
+        retDataSet = []                                        #创建返回的数据集列表
+        for featVec in dataSet:                             #遍历数据集
+            if featVec[column] == value:
+                reducedFeatVec = featVec[:column]                #去掉axis特征
+                reducedFeatVec.extend(featVec[column+1:])     #将符合条件的添加到返回的数据集
+                retDataSet.append(reducedFeatVec)
+        return retDataSet                                      #返回划分后的数据集
 
 '''
 @Desc : '选择最优特征'
@@ -123,7 +132,7 @@ def chooseBestFeature(dataSet):
             newEntropy += calcShannonEnt(j) * len(j)/numEntires
 
         infoGain = shannonEnt - newEntropy
-        print('第%d个元素的信息增益为%f' % (i, infoGain))
+        #print('第%d个元素的信息增益为%f' % (i, infoGain))
 
         if infoGain > bestInfoGain:
             bestInfoGain = infoGain
@@ -131,8 +140,56 @@ def chooseBestFeature(dataSet):
 
     return bestFeature
 
+'''
+@Desc : '创建决策树'
+@Parameter :
+    'dataSet' - '训练集'
+    'labels' - '分类标签'
+    'featureLabels' - '存储选择的最优特征标签'
+@Returns :
+    'decisionTree' - '决策树'
+@Time : '2020/02/05' 
+'''
+def createTree(dataSet, labels, featureLabels):
+    #递归创建决策树，有两种结束情况。1.分类标签完全相同；2.分类特征不够用
+    dataFrameSet = pd.DataFrame(dataSet)
+    lastLabelSeries = dataFrameSet.iloc[:, -1]
+    #分类标签完全相同
+    if len(lastLabelSeries.value_counts()) == 1:
+        return np.array(lastLabelSeries).tolist()[0]
+    #特征已用完只剩结果，则返回分类标签中出现最多的
+    if len(dataSet[0]) == 1 or len(labels) == 0:
+        return lastLabelSeries.value_counts().idxmax()
+
+    #选择最优特征
+    bestFeat = chooseBestFeature(dataSet)
+    #最优特征的标签
+    bestFeatLabel = labels[bestFeat]
+    featureLabels.append(bestFeatLabel)
+    decisionTree = {bestFeatLabel:{}}
+    #删除已经使用的最有特征
+    del(labels[bestFeat])
+
+    #取得特征的所有取值情况
+    featureSeries = dataFrameSet.iloc[:, bestFeat]
+    uniqueVals = list(featureSeries.value_counts().index)
+
+    #遍历特征，创建决策树
+    for value in uniqueVals:
+        #list深拷贝
+        subLabels = labels[:]
+
+        decisionTree[bestFeatLabel][value] = createTree(splitDataSet(dataSet, bestFeat, value), subLabels, featureLabels)
+
+    return decisionTree
+
 if __name__ == '__main__':
     dataSet, labels = createDataSet()
     #calcShannonEnt(dataSet)
-    bestFeature = chooseBestFeature(dataSet)
-    print('最优特征为%d' % bestFeature)
+    #bestFeature = chooseBestFeature(dataSet)
+    #print('最优特征为%d' % bestFeature)
+    #t = splitDataSet(dataSet, 0, 0)
+    #print(t)
+    featureLabels = []
+    decisionTree = createTree(dataSet, labels, featureLabels)
+    print(decisionTree)
