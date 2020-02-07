@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b531ed1b-749f-45b3-9783-26f59a9c1679" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/NaiveBayes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NaiveBayes/speechFiltration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pneumonia/fileConcat.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DecisionTree/bestFeature.py" beforeDir="false" afterPath="$PROJECT_DIR$/DecisionTree/bestFeature.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pneumonia/getData.py" beforeDir="false" afterPath="$PROJECT_DIR$/pneumonia/getData.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +36,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.bestFeature (1)">
+  <component name="RunManager" selected="Python.speechFiltration">
     <configuration name="bestFeature (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="machinelearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -55,28 +58,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bestFeature" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="machinelearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DecisionTree" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\code\machinelearning\DecisionTree\bestFeature.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="getData-global" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="fileConcat" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="machinelearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,7 +70,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pneumonia/getData-global.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pneumonia/fileConcat.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,7 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sklearnDigitRecognition" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sklearnDecisionTree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="machinelearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,11 +108,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/KNN" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DecisionTree" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KNN/sklearnDigitRecognition.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DecisionTree/sklearnDecisionTree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="speechFiltration" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="machinelearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NaiveBayes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NaiveBayes/speechFiltration.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.bestFeature (1)" />
+        <item itemvalue="Python.speechFiltration" />
+        <item itemvalue="Python.fileConcat" />
         <item itemvalue="Python.getData" />
-        <item itemvalue="Python.bestFeature" />
-        <item itemvalue="Python.sklearnDigitRecognition" />
-        <item itemvalue="Python.getData-global" />
+        <item itemvalue="Python.sklearnDecisionTree" />
+        <item itemvalue="Python.bestFeature (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +205,21 @@
       <option name="project" value="LOCAL" />
       <updated>1580819054784</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="决策树">
+      <created>1580897236236</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580897236236</updated>
+    </task>
+    <task id="LOCAL-00008" summary="sklearn决策树">
+      <created>1580905296727</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1580905296727</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -211,41 +228,43 @@
     <MESSAGE value="KNN封装" />
     <MESSAGE value="sklearn数字识别" />
     <MESSAGE value="决策树基础：寻找最优特征" />
-    <option name="LAST_COMMIT_MESSAGE" value="决策树基础：寻找最优特征" />
+    <MESSAGE value="决策树" />
+    <MESSAGE value="sklearn决策树" />
+    <option name="LAST_COMMIT_MESSAGE" value="sklearn决策树" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="598" y="101" key="CommitChangelistDialog2" timestamp="1580819054244">
+    <state x="598" y="101" key="CommitChangelistDialog2" timestamp="1580905296203">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="598" y="101" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580819054244" />
+    <state x="598" y="101" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580905296203" />
     <state x="184" y="92" key="DiffContextDialog" timestamp="1580652174148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="92" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580652174148" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1580897210039">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1581065422758">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580897210039" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1580897210039">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581065422758" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1581065422757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580897210039" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1580897210039">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581065422757" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1581065422757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580897210039" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1580897210039">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581065422757" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1581065422757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580897210039" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1580819061513">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581065422757" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1580905316056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580819061513" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1580888061824">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580905316056" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1581064629848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580888061824" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581064629848" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580807447020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -258,9 +277,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580804874270" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580722941753">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1581050956487">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580722941753" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581050956487" />
   </component>
 </project>
