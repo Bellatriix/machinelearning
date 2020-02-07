@@ -10,7 +10,6 @@
 '''
 
 import numpy as np
-from functools import reduce
 
 '''
 @Desc : '创建实验样本'
