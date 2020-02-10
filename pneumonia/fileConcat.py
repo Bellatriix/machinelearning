@@ -39,8 +39,8 @@ def  fileLeftCon(path1, path2, output):
     return 'suc'
 
 if __name__ == '__main__':
-    path1 = r'C:/Users/张鹏/Desktop/肺炎数据/0206.xlsx'
-    path2 = r'C:/Users/张鹏/Desktop/肺炎数据/0205.xlsx'
-    output = r'C:/Users/张鹏/Desktop/肺炎数据/result06.xlsx'
+    path1 = r'C:/Users/张鹏/Desktop/肺炎数据/0207.xlsx'
+    path2 = r'C:/Users/张鹏/Desktop/肺炎数据/0206.xlsx'
+    output = r'C:/Users/张鹏/Desktop/肺炎数据/result07.xlsx'
 
     print(fileLeftCon(path1, path2, output))

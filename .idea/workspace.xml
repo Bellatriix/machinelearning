@@ -2,152 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b531ed1b-749f-45b3-9783-26f59a9c1679" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/ClassList.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000008/10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000008/11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000008/12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000008/13.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000008/14.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000008/15.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000008/16.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000008/17.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000008/18.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000008/19.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000010/10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000010/11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000010/12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000010/13.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000010/14.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000010/15.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000010/16.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000010/17.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000010/18.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000010/19.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000013/10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000013/11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000013/12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000013/13.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000013/14.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000013/15.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000013/16.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000013/17.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000013/18.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000013/19.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000014/10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000014/11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000014/12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000014/13.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000014/14.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000014/15.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000014/16.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000014/17.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000014/18.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000014/19.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000016/10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000016/11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000016/12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000016/13.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000016/14.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000016/15.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000016/16.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000016/17.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000016/18.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000016/19.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000020/10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000020/11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000020/12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000020/13.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000020/14.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000020/15.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000020/16.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000020/17.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000020/18.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000020/19.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000022/10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000022/11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000022/12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000022/13.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000022/14.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000022/15.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000022/16.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000022/17.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000022/18.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000022/19.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000023/10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000023/11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000023/12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000023/13.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000023/14.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000023/15.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000023/16.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000023/17.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000023/18.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000023/19.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000024/10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000024/11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000024/12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000024/13.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000024/14.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000024/15.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000024/16.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000024/17.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000024/18.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/Sample/C000024/19.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/emailSort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/ham/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/ham/10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/ham/11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/ham/12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/ham/13.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/ham/14.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/ham/15.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/ham/16.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/ham/17.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/ham/18.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/ham/19.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/ham/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/ham/20.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/ham/21.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/ham/22.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/ham/23.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/ham/24.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/ham/25.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/ham/3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/ham/4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/ham/5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/ham/6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/ham/7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/ham/8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/ham/9.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/newsSort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/spam/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/spam/10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/spam/11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/spam/12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/spam/13.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/spam/14.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/spam/15.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/spam/16.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/spam/17.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/spam/18.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/spam/19.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/spam/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/spam/20.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/spam/21.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/spam/22.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/spam/23.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/spam/24.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/spam/25.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/spam/3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/spam/4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/spam/5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/spam/6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/spam/7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/spam/8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/spam/9.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NaiveBayes/stopwords_cn.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogisticRegression/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogisticRegression/gradientRising.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogisticRegression/horseColic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogisticRegression/horseColicTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogisticRegression/horseColicTraining.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogisticRegression/testSet.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NaiveBayes/speechFiltration.py" beforeDir="false" afterPath="$PROJECT_DIR$/NaiveBayes/speechFiltration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pneumonia/fileConcat.py" beforeDir="false" afterPath="$PROJECT_DIR$/pneumonia/fileConcat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pneumonia/getData.py" beforeDir="false" afterPath="$PROJECT_DIR$/pneumonia/getData.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,28 +40,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.newsSort">
-    <configuration name="emailSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="machinelearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NaiveBayes" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NaiveBayes/emailSort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.horseColic">
     <configuration name="fileConcat" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="machinelearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -241,6 +83,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="gradientRising" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="machinelearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LogisticRegression" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LogisticRegression/gradientRising.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="horseColic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="machinelearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LogisticRegression" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LogisticRegression/horseColic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="newsSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="machinelearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -262,34 +146,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="speechFiltration" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="machinelearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NaiveBayes" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NaiveBayes/speechFiltration.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.newsSort" />
-        <item itemvalue="Python.emailSort" />
-        <item itemvalue="Python.speechFiltration" />
+        <item itemvalue="Python.horseColic" />
+        <item itemvalue="Python.gradientRising" />
         <item itemvalue="Python.fileConcat" />
         <item itemvalue="Python.getData" />
+        <item itemvalue="Python.newsSort" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581065589750</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="朴素贝叶斯分类器">
+      <created>1581078318402</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1581078318402</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -382,38 +252,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="朴素贝叶斯分类器" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="598" y="101" key="CommitChangelistDialog2" timestamp="1581065589166">
+    <state x="598" y="101" key="CommitChangelistDialog2" timestamp="1581078317772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="598" y="101" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581065589166" />
+    <state x="598" y="101" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581078317772" />
     <state x="184" y="92" key="DiffContextDialog" timestamp="1580652174148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="92" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580652174148" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1581078302358">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1581343580354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581078302358" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1581078302357">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581343580354" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1581343580354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581078302357" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1581078302357">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581343580354" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1581343580354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581078302357" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1581078302357">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581343580354" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1581343580354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581078302357" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581065596976">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581343580354" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581078326141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581065596976" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1581064629848">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581078326141" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1581329021682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581064629848" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581329021682" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580807447020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -426,9 +296,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580804874270" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1581074188801">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1581342919923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581074188801" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581342919923" />
   </component>
 </project>

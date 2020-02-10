@@ -84,6 +84,6 @@ def getData(output):
     return 'suc'
 
 if __name__ == '__main__':
-    output = 'C:/Users/张鹏/Desktop/肺炎数据'
+    output = 'C:/Users/张鹏/Desktop/肺炎数据/'
     result = getData(output=output)
     print(result)
